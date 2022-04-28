@@ -1,34 +1,40 @@
-
-
 /*# sourceMappingURL=style.css.map */
-body{
+body {
 	margin: 0;
 	min-height: 100vh;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows: 1fr 1fr 1fr 150px;
-	grid-template-areas: 
-	"a a a"
-	"b c c" 
-	"d d e" 
-	"f f f" ;
+	grid-template-areas:
+		"a a a"
+		"b c c"
+		"d d e"
+		"f f f";
 }
 
-.bloc:nth-child(1){
+.bloc:nth-child(1) {
+	background: darkorchid;
 	grid-area: ;
 }
-.bloc:nth-child(2){
+.bloc:nth-child(2) {
+	background: url(./media/basic-pics/1.jpg);
+	background-size: cover;
 	grid-area: ;
 }
-.bloc:nth-child(3){
+.bloc:nth-child(3) {
+	background: purple;
 	grid-area: ;
 }
-.bloc:nth-child(4){
+.bloc:nth-child(4) {
+	background: blueviolet;
 	grid-area: ;
 }
-.bloc:nth-child(5){
+.bloc:nth-child(5) {
+	background: url(./media/basic-pics/2.jpg);
+	background-size: cover;
 	grid-area: ;
 }
-.bloc:nth-child(6){
+.bloc:nth-child(6) {
+	background: violet;
 	grid-area: ;
 }
